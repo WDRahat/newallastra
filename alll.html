@@ -1,0 +1,9 @@
+<script>
+  if (window.location.pathname === "/" || window.location.pathname === "/index.html") {
+    document.documentElement.style.visibility = 'hidden';
+    window.addEventListener('load', function() {
+      document.documentElement.style.visibility = 'visible';
+    });
+  }
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
